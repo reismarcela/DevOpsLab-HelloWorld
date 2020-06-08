@@ -20,7 +20,7 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: e8137721-19f5-47bd-9049-74e5b276bbb8
+    secure: $CHAVE_HEROKU 
   app: devopslab-helloworldd
 on:
   branch: master
